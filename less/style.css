@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: #7b0738;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo {
+  height: 100%;
+}
+nav .logo img {
+  height: 90%;
+}
+nav .navigation a {
+  color: white;
+  text-decoration: none;
+  /* display: flex; */
+  /* flex-flow: column wrap;
+  justify-content: flex-end;
+  align-items: center; */
+}
+html {
+  background-color: #bc2b62;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: Roboto;
+}
+p{  
+  width: 75%;
+  height: 75%;
+}
+#wrapper {
+  width: 100%;
+  /* display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: space-between; */
+}
+.splash {
+  height: 500px;
+  width: 100%;
+  background-image: url("../assets/images/marvels-guardians-of-the-galaxy-4k-wallpaper-3840x2160-uhdpaper.com-533.1_a.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.splash .splashContent {
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-color: rgba(89, 72, 150, 0.65);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.full {
+  min-height: 300px;
+  background-color: #aaabfd;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.content {
+  min-height: 300px;
+  background-color: #594896;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* align-content: space-between; */
+}
+.content .box {
+  width: 500px;
+  min-height: 300px;
+  border-radius: 8px;
+  background-color: #aaabfd;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* flex-flow: column wrap; */
+  /* justify-content: space-between;
+  align-items: center; */
+}
+.content .box .imgBox {
+  border: 3px white solid;
+  border-radius: 10px;
+  width: 95%;
+  height: 300px;
+  display: flex;
+  float: inherit;
+  /* box-sizing: border-box;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center; */
+}
+.content .box .imgBox img{
+  object-fit:contain;
+}
+footer {
+  width: 100%;
+  min-height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer .links {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+footer .links a {
+  color: white;
+  text-decoration: none;
+}
+footer .copyright {
+  color: white;
+  display: flex;
+  margin-left: 37%;
+  }
+/*# sourceMappingURL=style.css.map */
